@@ -9,6 +9,7 @@ class Colors {
   static const Color lime = const Color(0xFF74FF65);
   static const Color yellow_34 = const Color(0xFFffd34c);
   static const Color purple_f8 = const Color(0xFFF85196);
+  static const Color cyan = const Color(0xFF00AAFF);
 
 }
 

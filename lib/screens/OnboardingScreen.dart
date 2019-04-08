@@ -23,7 +23,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   final List<Widget> _pages = <Widget>[
     OnboardingPage("SUN",
-        "1965",
+        "The heart of our Solar System",
         AppTheme.Decorations.gradient1, 'assets/ic_sun.png',
         AppTheme.Colors.yellow_34,
         false),
@@ -31,7 +31,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     OnboardingPage("PLANETS",
         "All Soccer Scores & Live Results",
         AppTheme.Decorations.gradient2, 'assets/ic_trophy.png',
-        AppTheme.Colors.yellow_34,
+        AppTheme.Colors.cyan,
         false),
 
     OnboardingPage("MOONS",
