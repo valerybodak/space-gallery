@@ -22,19 +22,19 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   int currentPageIndex = 0;
 
   final List<Widget> _pages = <Widget>[
-    OnboardingPage("Matches",
-        "All Soccer Scores & Live Results",
-        AppTheme.Decorations.gradient1, 'assets/ic_soccer_ball.png',
-        AppTheme.Colors.purple_f8,
+    OnboardingPage("SUN",
+        "1965",
+        AppTheme.Decorations.gradient1, 'assets/ic_sun.png',
+        AppTheme.Colors.yellow_34,
         false),
 
-    OnboardingPage("Standings",
+    OnboardingPage("PLANETS",
         "All Soccer Scores & Live Results",
         AppTheme.Decorations.gradient2, 'assets/ic_trophy.png',
         AppTheme.Colors.yellow_34,
         false),
 
-    OnboardingPage("Odds",
+    OnboardingPage("MOONS",
         "All Soccer Scores & Live Results",
         AppTheme.Decorations.gradient3, 'assets/ic_bet.png',
         AppTheme.Colors.lime,

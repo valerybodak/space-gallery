@@ -24,24 +24,26 @@ class TextStyles {
   const TextStyles();
 
   static const TextStyle onboardingPageTitle = const TextStyle(
-      fontSize: 26.0,
+      fontSize: 22.0,
       color: Colors.white,
-      fontFamily: 'Poppins',
-      fontWeight: FontWeight.w700
+      fontFamily: 'Eurostile',
+      fontWeight: FontWeight.w900,
+      letterSpacing: 4,
   );
 
   static const TextStyle onboardingPageDescription = const TextStyle(
       fontSize: 14.0,
       color: Colors.white,
-      fontFamily: 'Poppins',
+      fontFamily: 'Eurostile',
       fontWeight: FontWeight.w400
   );
 
   static const TextStyle onboardingButtonOK = const TextStyle(
       fontSize: 15.0,
       color: Colors.white,
-      fontFamily: 'Poppins',
-      fontWeight: FontWeight.w700
+      fontFamily: 'Eurostile',
+      fontWeight: FontWeight.w700,
+      letterSpacing: 0.3
   );
 }
 
@@ -54,9 +56,8 @@ class Decorations{
       begin: Alignment.bottomCenter,
       end: Alignment.topCenter,
       colors: [
-        const Color(0xFF0f2027),
-        const Color(0xFF203a43),
-        const Color(0xff2c5364),
+        const Color(0xFF1e130c),
+        const Color(0xff9a8478),
       ],
     ),
   );
