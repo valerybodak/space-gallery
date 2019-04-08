@@ -56,8 +56,8 @@ class Decorations{
       begin: Alignment.bottomCenter,
       end: Alignment.topCenter,
       colors: [
-        const Color(0xFF1e130c),
-        const Color(0xff9a8478),
+        const Color(0xFF000000),
+        const Color(0xff434343),
       ],
     ),
   );
