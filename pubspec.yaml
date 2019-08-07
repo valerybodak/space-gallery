@@ -40,6 +40,18 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - assets/ic_sun.png
+    - assets/ic_trophy.png
+    - assets/ic_bet.png
+
+  fonts:
+  - family: Eurostile
+    fonts:
+    - asset: assets/fonts/eurostile.ttf
+    - asset: assets/fonts/eurostile-normal.ttf
+    - asset: assets/fonts/eurostile-bold.ttf
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
@@ -68,5 +80,16 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+    #You can use numeric values. They all correspond to a particular named weight:
+    #100 Thin
+    #200 Extra Light
+    #300 Light
+    #400 Normal
+    #500 Medium
+    #600 Semi Bold
+    #700 Bold
+    #800 Extra Bold
+    #900 Ultra Bold
+    #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
